@@ -19,6 +19,7 @@
 * `API_HASH` API Hash from my.telegram.org
 * `API_ID` API ID from my.telegram.org
 * `BOT_TOKEN` Bot token from @BotFather
+* `BOT_USERNAME` Your bot username without @
 * `OWNER_ID` Telegram Id of Owner.
 * `TO_CHANNEL` Channel ID of channel to which messages are forwarded eg:- -100xxxxxxxx
 * `SESSION` Pyrogram session string Generate From here [![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-yellowgreen)](https://repl.it/@subinps/getStringName)
