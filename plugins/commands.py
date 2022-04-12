@@ -14,7 +14,7 @@ buttons=InlineKeyboardMarkup(
                 InlineKeyboardButton("How Does This Works?", callback_data="abt")
             ],
             [
-                InlineKeyboardButton("Source Code", url="https://github.com/GreyMatter658/Forward_2.0"),
+                InlineKeyboardButton("Source Code", url="https://t.me/moksh_b658"),
                 InlineKeyboardButton("Report a Bug", url="https://t.me/greymatters_bots_discussion")
             ]
         ]
@@ -41,7 +41,7 @@ async def stop_button(bot, message):
     )
     await asyncio.sleep(1)
     await msg.edit("All Processes Stopped and Restarted")
-    os.execl(sys.executable, sys.executable, *sys.argv)
+     sys.exit(0)
 
 
 @Client.on_message(filters.private & filters.command('help'))
@@ -64,7 +64,7 @@ async def cb_abt(bot, cb):
     reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Source", url="https://github.com/greymatter658/Forward_2.0"),
+                InlineKeyboardButton("Source", url="https://t.me/moksh_b658"),
             ]
         ]
     )
