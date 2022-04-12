@@ -41,7 +41,7 @@ async def stop_button(bot, message):
     )
     await asyncio.sleep(1)
     await msg.edit("All Processes Stopped and Restarted")
-     sys.exit(0)
+    os.execl(sys.executable, sys.executable, *sys.argv)
 
 
 @Client.on_message(filters.private & filters.command('help'))
