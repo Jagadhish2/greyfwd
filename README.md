@@ -7,7 +7,6 @@
 * Can be used for both private and Public channels.
 * Bot Index message from channel and saves to database, further forwards and deletes each messages from database.Use of database was to Remove duplicacy of files.
 * For Private channels User account is used to copy messages, hence will be slow, to avoid ban.
-* For Public Channels Bot is used to forward , Thanks to [DⱥℝkAngel](https://github.com/Jijinr) for his [Frwdit](https://github.com/Jijinr/Frwdit).
 
 ### Deploy to Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/greymatter658/my-forward-bot)
@@ -22,7 +21,7 @@
 * `BOT_USERNAME` Your bot username without @
 * `OWNER_ID` Telegram Id of Owner.
 * `TO_CHANNEL` Channel ID of channel to which messages are forwarded eg:- -100xxxxxxxx
-* `SESSION` Pyrogram session string Generate From here [![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-yellowgreen)](https://repl.it/@subinps/getStringName)
+* `SESSION` Pyrogram session string Generate From here [![GenerateStringName]
 * `DATABASE_URI` Database uri from [MongoDB](https://cloud.mongodb.com/)
 * `DATABASE_NAME` Database Cluster name
 * `COLLECTION_NAME` Database Collection name.
