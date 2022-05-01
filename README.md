@@ -26,9 +26,3 @@
 * `DATABASE_URI` Database uri from [MongoDB](https://cloud.mongodb.com/)
 * `DATABASE_NAME` Database Cluster name
 * `COLLECTION_NAME` Database Collection name.
-
-
-### Credits
-* [DⱥℝkAngel](https://github.com/Jijinr) for his [Frwdit](https://github.com/Jijinr/Frwdit)
-* [Rahul](https://github.com/rahulps1000) for his [ForwardBot](https://github.com/rahulps1000/ForwardBot)
-
