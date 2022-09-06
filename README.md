@@ -1,7 +1,4 @@
-# my-forward-bot
-# Premium forward bot only for paid subs
-
-# Forward_2.0
+# Forward_Bot
 
 * Bot to forward messages from one channel to other without admin permission in source channel.
 * Can be used for both private and Public channels.
